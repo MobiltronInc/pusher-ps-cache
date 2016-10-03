@@ -1,0 +1,34 @@
+{
+"name": "pusher-ps-cache",
+"description": "pusher-ps-cache, pubsub caching library using pusher.com",
+"version": "1.0",
+"author": "Mobiltron, Inc <dev@mobiltron.com>",
+"contributors": [
+"Vassilios Karakoidas <v.karakoidas@mobiltron.com> (http://bkarak.wizhut.com/blog/)"
+],
+"keywords": [
+"cache",
+"local",
+"pubsub",
+"caching",
+"pusher"
+],
+"license": "MIT",
+"repository": {
+"type": "git",
+"url": "https://github.com/MobiltronInc/pusher-ps-cache"
+},
+"dependencies": {
+"pusher": "latest",
+"ps-cache": "latest"
+},
+"devDependencies": {},
+"files": [
+"LICENSE.md",
+"README.md"
+],
+"engines": {
+"node": ">= 4.0"
+},
+"scripts": {}
+}
