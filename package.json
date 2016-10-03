@@ -1,6 +1,6 @@
 {
 "name": "pusher-ps-cache",
-"description": "pusher-ps-cache, pubsub caching library using pusher.com",
+"description": "An implementation of ps-cache, pubsub caching library, using pusher.com real-time messaging medium.",
 "version": "1.0",
 "author": "Mobiltron, Inc <dev@mobiltron.com>",
 "contributors": [
