@@ -20,7 +20,8 @@
 	},
 	"dependencies": {
 		"ps-cache": "latest",
-		"pusher": "latest"
+		"pusher": "latest",
+		"pusher-js": "latest"
 	},
 	"devDependencies": {},
 	"files": [
