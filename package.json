@@ -1,7 +1,7 @@
 {
 	"name": "pusher-ps-cache",
 	"description": "An implementation of ps-cache module, pubsub caching library, using pusher.com real-time messaging medium.",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Mobiltron, Inc <dev@mobiltron.com>",
 	"contributors": [
 		"Vassilios Karakoidas <v.karakoidas@mobiltron.com> (http://bkarak.wizhut.com/blog/)"
