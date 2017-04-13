@@ -1,6 +1,6 @@
 ## Changelog
 
-### 1.0.8
+### 1.0.9
 - Fixed broken publish caused by yarn.
 
 ### 1.0.7
