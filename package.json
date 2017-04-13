@@ -1,37 +1,37 @@
 {
-	"name": "pusher-ps-cache",
-	"description": "An implementation of ps-cache module, pubsub caching library, using pusher.com real-time messaging medium.",
-	"version": "1.0.8",
-	"author": "Mobiltron, Inc <dev@mobiltron.com>",
-	"contributors": [
-		"Vassilios Karakoidas <v.karakoidas@mobiltron.com> (http://bkarak.wizhut.com/blog/)"
-	],
-	"keywords": [
-		"cache",
-		"local",
-		"pubsub",
-		"caching",
-		"pusher"
-	],
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/MobiltronInc/pusher-ps-cache"
-	},
-	"dependencies": {
-		"ps-cache": "latest",
-		"pusher": "latest",
-		"pusher-js": "latest"
-	},
-	"devDependencies": {},
-	"files": [
-		"LICENSE.md",
-		"README.md",
-		"index.js",
-		"lib/"
-	],
-	"engines": {
-		"node": ">= 6.0"
-	},
-	"scripts": {}
+  "name": "pusher-ps-cache",
+  "description": "An implementation of ps-cache module, pubsub caching library, using pusher.com real-time messaging medium.",
+  "version": "1.0.9",
+  "author": "Mobiltron, Inc <dev@mobiltron.com>",
+  "contributors": [
+    "Vassilios Karakoidas <v.karakoidas@mobiltron.com> (http://bkarak.wizhut.com/blog/)"
+  ],
+  "keywords": [
+    "cache",
+    "local",
+    "pubsub",
+    "caching",
+    "pusher"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobiltronInc/pusher-ps-cache"
+  },
+  "dependencies": {
+    "ps-cache": "latest",
+    "pusher": "latest",
+    "pusher-js": "latest"
+  },
+  "devDependencies": {},
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "scripts": {}
 }
