@@ -2,6 +2,10 @@
 
 An implementation of [ps-cache](https://github.com/MobiltronInc/ps-cache), pubsub caching library, using [pusher.com](https://pusher.com/) real-time messaging medium.
 
+__Features__
+* Local in memory caching
+* Real-time cache invalidation
+
 ## Getting Started
 
 ```javascript
@@ -23,9 +27,12 @@ var pusherListener = new pusherBaseListener.PusherListener(listenerOpts);
 cache.attachListener(pusherListener);
 
 //Set to cache
-cache.set(key, value, opts);
+cache.set(key, value);
 
-//Remove from cache
+//Get value by key or null if key doesn't exists
+cache.get(key);
+
+//Remove from local cache and notify for global invalidation
 cache.remove(key)
 ```
 
