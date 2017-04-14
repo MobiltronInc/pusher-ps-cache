@@ -26,8 +26,13 @@ var listenerOpts = {
 var pusherListener = new pusherBaseListener.PusherListener(listenerOpts);
 cache.attachListener(pusherListener);
 
-//Set to cache
-cache.set(key, value);
+var D = pscache.D;
+
+//Set to cache and time to live 30 minutes
+cache.set(key, value,{ ttl: D.THIRTY_MINUTES });
+
+//Set to cache without TTL
+cache.set(key, value,);
 
 //Get value by key or null if key doesn't exists
 cache.get(key);
