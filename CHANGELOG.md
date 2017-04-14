@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.0.10
+- Updated README.md
+
 ### 1.0.9
 - Fixed broken publish caused by yarn.
 
